@@ -1,0 +1,167 @@
+.navbar {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-bar input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .search-button {
+    background-color: #ff5733;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .user-menu a {
+    color: white;
+    margin-left: 20px;
+  }
+.header {
+    background-color: #f8f8f8;
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+  }
+  
+  .navbar {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+  }
+  
+  .main-proposition {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .cartoon-images {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .cartoon-images img {
+    max-width: 100px;
+    height: auto;
+  }
+  .about {
+    background-color: #f8f8f8;
+    padding: 40px 0;
+  }
+  
+  .about-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .about h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .about p {
+    font-size: 16px;
+    color: #555;
+  }
+  .special-recipes {
+    background-color: #f8f8f8;
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  .special-recipes h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .recipe-categories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .recipe-category {
+    flex: 1;
+    max-width: 200px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #fff;
+  }
+  
+  .recipe-category h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .recipe-category ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .recipe-category li {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .add-to-cart {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  .testimonials {
+    background-color: #fff;
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  .testimonial {
+    margin: 20px 0;
+  }
+  
+  .testimonial-text {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .testimonial-author {
+    font-size: 14px;
+    color: #777;
+  }
+  
